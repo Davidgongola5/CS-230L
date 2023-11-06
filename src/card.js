@@ -40,4 +40,4 @@ function Card() {
   );
 }
 
-export default Cards;
+export default Card;
