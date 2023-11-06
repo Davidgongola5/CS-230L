@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Cards() {
+function Card() {
   return (
     <div className="row">
       <div className="col-md-4">

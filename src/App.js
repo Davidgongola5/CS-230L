@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './navbar.js';
-import Cards from './cards.js';
+import Card from './card.js';
 import Home from './home.js';
 import Contact from './contact.js';
 import './App.css';
@@ -14,7 +14,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/cards" element={<Cards />}></Route>
+          <Route path="/card" element={<Card />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
         </Routes>
    </BrowserRouter>
